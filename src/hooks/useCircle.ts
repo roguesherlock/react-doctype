@@ -1,9 +1,10 @@
 import { useCallback, useReducer, useRef } from "react";
 
 const isColor = (strColor: string) => {
+  const colorString = strColor.toLowerCase();
   const s = new Option().style;
-  s.color = strColor;
-  return s.color === strColor;
+  s.color = colorString;
+  return s.color === colorString;
 };
 
 type CircleState = {
