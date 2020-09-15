@@ -1,8 +1,12 @@
-I found myself doing this repeatedly so decided to create a base template which I can just mirror.
+# Circle
 
-- React
-- Typescript
-- TailwindCSS
+A simple input that takes color, and a circle that changes to that color
+
+<br/>
+
+![img](./screenshots/screenshot1.png)
+
+<br/>
 
 # To run on localhost
 
