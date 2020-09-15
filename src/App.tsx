@@ -1,13 +1,8 @@
 import React from "react";
+import Circle from "./components/Circle";
 
 function App() {
-  return (
-    <div className="flex items-center justify-center h-screen bg-gray-200">
-      <h1 className="text-5xl text-center font-semibold tracking-wide uppercase">
-        hello
-      </h1>
-    </div>
-  );
+  return <Circle />;
 }
 
 export default App;
